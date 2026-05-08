@@ -1,0 +1,23 @@
+{
+  "name": "EcommercePipeline",
+  "properties": {
+    "activities": [
+      {
+        "name": "CopyCustomers",
+        "type": "Copy"
+      },
+      {
+        "name": "CopyProducts",
+        "type": "Copy"
+      },
+      {
+        "name": "CopyOrders",
+        "type": "Copy"
+      },
+      {
+        "name": "CopyOrderItems",
+        "type": "Copy"
+      }
+    ]
+  }
+}
